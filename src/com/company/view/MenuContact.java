@@ -102,6 +102,9 @@ public class MenuContact {
             System.err.println("Fie không tồn tại or nội dung có lỗi!");
         }
     }
+    private void searchContactByPhoneNumberOrName(){
+
+    }
 
     private void deleteContact() {
         System.out.println("Xóa liên hệ");
@@ -125,6 +128,10 @@ public class MenuContact {
         Contact contact = inputContact();
         contactManagement.addNew(contact);
         System.out.println("Thêm mới thành công");
+
+    }
+    public void updateContact(){
+
     }
 
     private Contact inputContact() {
